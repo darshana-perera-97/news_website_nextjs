@@ -31,10 +31,11 @@ export default function NewsLines() {
           fontSize: "18px",
           padding: "10px",
           fontWeight: "bold",
-          
         }}
       >
+        <span style={{ color: "red", fontWeight: "bold" }}> |+| </span>
         {newsLineText[item]}
+        <span style={{ color: "red", fontWeight: "bold" }}> |+| </span>
       </p>
     </div>
   );
