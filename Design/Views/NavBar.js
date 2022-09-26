@@ -1,10 +1,9 @@
-import CopyRightLine from "../Components/CopyRightLine";
 import Logo from "../Components/Logo";
 import LeftMenuComponents from "../Layouts/LeftMenuComponents";
 
 export default function NavBar() {
   return (
-    <div style={{ backgroundColor: "#C8C8C8", height: "100vh" }}>
+    <div style={{ backgroundColor: "#C8C8C8", height: "100vh",width:"200vh" }}>
       <Logo />
       <LeftMenuComponents />
       {/* <CopyRightLine style={{ position: "absolute", bottom: "0" }} /> */}
