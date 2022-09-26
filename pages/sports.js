@@ -1,10 +1,12 @@
 import SingleNews from "../Design/Components/SingleNews";
+import TopBar from "../Design/Components/TopBar";
 import TopNavBar from "../Design/Views/TopNavBar";
 
 
 export default function sports() {
   return (
     <div>
+      <TopBar/>
       <TopNavBar name="Sports News" />
       <SingleNews
         link="https://ichef.bbci.co.uk/onesport/cps/976/cpsprodpb/142A5/production/_126079528_karunaratne_babar_getty.jpg"

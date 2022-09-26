@@ -1,10 +1,12 @@
 import SingleNews from "../Design/Components/SingleNews";
+import TopBar from "../Design/Components/TopBar";
 import TopNavBar from "../Design/Views/TopNavBar";
 
 
 export default function whether() {
   return (
     <div>
+      <TopBar/>
       <TopNavBar name="Weather Updates" />
       <SingleNews
         link="https://www.dailynews.lk/sites/default/files/styles/node-teaser-default/public/news/2022/03/17/Advisory%20issued%20for%20Southwest%20Bay%20of%20Bengal%20Sea%20Areas.JPG?itok=vIvoEdMf"

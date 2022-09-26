@@ -1,9 +1,11 @@
 import SingleNews from "../Design/Components/SingleNews";
+import TopBar from "../Design/Components/TopBar";
 import TopNavBar from "../Design/Views/TopNavBar";
 
 export default function foreign() {
   return (
     <div>
+      <TopBar/>
       <TopNavBar name="Foreign News" />
       <SingleNews
         link="https://ichef.bbci.co.uk/news/976/cpsprodpb/1426C/production/_125904528_kristalinageorgieva.jpg.webp"

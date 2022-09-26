@@ -1,9 +1,11 @@
 import SingleNews from "../Components/SingleNews";
+import TopBar from "../Components/TopBar";
 import TopNavBar from "./TopNavBar";
 
 export default function HomePage() {
   return (
     <div>
+      <TopBar/>
       <TopNavBar name="Local News" />
       <SingleNews
         link="https://ichef.bbci.co.uk/news/976/cpsprodpb/1626/production/_126807650_gettyimages-1242701078.jpg.webp"

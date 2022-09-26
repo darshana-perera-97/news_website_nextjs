@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <NavBar />
       <div>
         <NewsLine />
-        <TopBar/>
+        {/* <TopBar/> */}
         <Component {...pageProps} />
       </div>
     </div>
