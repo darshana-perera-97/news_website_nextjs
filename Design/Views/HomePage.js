@@ -4,7 +4,7 @@ import TopNavBar from "./TopNavBar";
 export default function HomePage() {
   return (
     <div>
-      <TopNavBar name="Latest News" />
+      <TopNavBar name="Local News" />
       <SingleNews
         link="https://ichef.bbci.co.uk/news/976/cpsprodpb/1626/production/_126807650_gettyimages-1242701078.jpg.webp"
         heading="Sri Lanka's annual inflation rate surged to more than 70% in August as it struggles with its worst economic crisis in over seven decades."

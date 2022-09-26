@@ -7,7 +7,7 @@ export default function TopNavBar(prop) {
           fontSize: "20px",
           color: "white",
           background: "red",
-          width: "190vh"
+          width: "190vh",
         }}
       >
         {prop.name}
@@ -15,4 +15,3 @@ export default function TopNavBar(prop) {
     </div>
   );
 }
-
