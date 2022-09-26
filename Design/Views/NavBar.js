@@ -1,11 +1,14 @@
-
+import Logo from "../Components/Logo";
+import LeftMenuComponents from "../Layouts/LeftMenuComponents";
 
 export default function NavBar() {
   return (
-    <div>NavBar</div>
-  )
+    <div>
+      <Logo />
+      <LeftMenuComponents/>
+    </div>
+  );
 }
-
 
 //home
 // authors
