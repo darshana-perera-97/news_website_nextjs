@@ -1,13 +1,13 @@
 import NavBar from "../Design/Views/NavBar";
-import TopNavBar from "../Design/Views/TopNavBar";
+import NewsLine from "../Design/Views/NewsLine";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div style={{display:"flex"}}>
+    <div style={{ display: "flex" }}>
       <NavBar />
       <div>
-        <TopNavBar />
+        <NewsLine />
         <Component {...pageProps} />
       </div>
     </div>

@@ -1,5 +1,9 @@
+import TopNavBar from "./TopNavBar";
+
 export default function HomePage() {
   return (
-    <div>HomePage</div>
-  )
+    <div>
+      <TopNavBar />
+    </div>
+  );
 }
