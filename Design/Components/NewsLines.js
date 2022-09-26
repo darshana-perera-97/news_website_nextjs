@@ -31,7 +31,6 @@ export default function NewsLines() {
           fontSize: "18px",
           padding: "10px",
           fontWeight: "bold",
-                //   background: "#E8E8E8",
           
         }}
       >
